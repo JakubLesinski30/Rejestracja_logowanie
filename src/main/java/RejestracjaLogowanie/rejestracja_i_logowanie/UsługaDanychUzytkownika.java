@@ -1,4 +1,4 @@
-package logowanie.rejestracja;
+package RejestracjaLogowanie.rejestracja_i_logowanie;
 
 import java.util.Collections;
 

@@ -1,4 +1,4 @@
-package logowanie.rejestracja;
+package RejestracjaLogowanie.rejestracja_i_logowanie;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

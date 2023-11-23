@@ -1,4 +1,4 @@
-package logowanie.rejestracja;
+package RejestracjaLogowanie;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,7 +30,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
             .and()
             .logout()
-                .permitAll();
+            .logoutUrl("/wyloguj")
+            .logoutSuccessUrl("/").permitAll();
 
 }
 }

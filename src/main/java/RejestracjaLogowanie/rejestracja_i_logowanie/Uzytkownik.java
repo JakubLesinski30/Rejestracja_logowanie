@@ -1,4 +1,4 @@
-package logowanie.rejestracja;
+package RejestracjaLogowanie.rejestracja_i_logowanie;
 
 import javax.persistence.*;
 import lombok.Getter;
@@ -11,7 +11,7 @@ import lombok.Setter;
 public class Uzytkownik {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(nullable = false, unique = true)
